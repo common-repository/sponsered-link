@@ -1,0 +1,112 @@
+.customSocialPanel{ float:left; width:100%;}
+.customSocialPanel ul{ margin:0px; padding:0px;}
+.customSocialPanel ul li{ float:left; width:33%; list-style:none; margin-bottom:10px;}
+.customSocialPanel ul li a{ float: left; padding:0px; font-size:14px; color:#000; line-height:18px; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+.customSocialPanel ul li a:hover{ text-decoration:underline;}
+.textwidget .customSocialPanel li{ margin-left:0px;}
+.entry-content .customSocialPanel {
+    width: 100%!important;
+    max-width: 100%!important;
+}
+.customSocialPanel-grid{width:100%!important;max-width:100%!important; padding: 0 15px;}
+.customSocialPanel-grid ul {
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+   
+    flex-wrap: wrap;
+}
+.customSocialPanel-grid ul li.grid {
+    list-style: none;
+    position: relative;
+    width: 100%;
+    float: none;
+    margin: 0px;
+    flex: 0 0 31%; 
+}
+.customSocialPanel-grid ul li.grid a {
+    display: block;
+    width: 100%;
+    height: 100%;
+	cursor: pointer;
+
+}
+.customSocialPanel-grid ul li.grid .image-grid {
+    width: 100%;
+    display: block;
+	height: 100%;
+    overflow: hidden;
+}
+.customSocialPanel-grid ul li.grid .image-grid img {
+    display: block;
+    width: 100%;
+    height: 100%;
+   
+}
+.customSocialPanel-grid ul li.grid label {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    z-index: 99;
+    font-size: larger;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.customSocialPanel-grid ul li.grid:after {
+    content: "";
+    background: #000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    opacity: 0.5;
+	    top: 0px;
+}
+
+
+.customSocialPanel-list{width:100%!important;max-width:100%!important;padding: 0 15px;}
+.customSocialPanel-list ul {
+    margin:0;
+}
+
+.customSocialPanel-list ul li.list { 
+    list-style: none;
+    padding:10px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+.customSocialPanel-list ul li.list a {
+    text-decoration: none;
+	 cursor: pointer;
+}
+.customSocialPanel-list ul li.list a:hover {
+    text-decoration: underline;
+	 
+}
+
+.customSocialPanel-list ul li.list label {
+    font-size: 20px;
+    color: #000;
+	cursor: pointer;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
